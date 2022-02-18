@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:padding="25dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/useridtext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="UserId:"
+                android:textSize="26sp" />
+
+            <EditText
+                android:id="@+id/useridinput"
+                android:layout_width="241dp"
+                android:layout_height="wrap_content"
+                android:text="xxx"
+                android:textSize="26sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/passtext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Password:"
+                android:textSize="26sp" />
+
+            <EditText
+                android:id="@+id/passinput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:password="true"
+                android:text="xxx"
+                android:textSize="26sp" />
+        </TableRow>
+
+        <Button
+            android:id="@+id/loginbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Log in"
+            android:textColor="#fff"
+            android:textSize="26sp" />
+
+    </TableLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
